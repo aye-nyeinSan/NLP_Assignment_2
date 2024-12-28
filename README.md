@@ -1,6 +1,8 @@
-# Text Cleaning and Analysis Project
+# Text Cleaning and Analysis Assignment (NLP programming assignment 2)
 
-This project focuses on cleaning, preprocessing, and analyzing text data. It covers various steps to process raw text and evaluate the quality of the cleaned data using automated metrics like readability scores and lexical diversity.
+### > By Aye Nyein San - 652115502
+
+This assignment focuses on cleaning, preprocessing, and analyzing text data. It covers various steps to process raw text and evaluate the quality of the cleaned data using automated metrics like readability scores and lexical diversity.
 
 ## Table of Contents
 - [Features](#features)
