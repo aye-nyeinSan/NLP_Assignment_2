@@ -1,14 +1,53 @@
-• Use the given dataset (you can find in the Mango (programming2_dataset.zip))
-• Repeat the Step 1-4 in the workshop. (4 points)
-1. Compare basic statistics before and after cleaning: (2 points)
-1. Average sentence length.
-2. Word and sentence count.
-3. Vocabulary size (number of unique words).
-4. Max word length, avg. min/max sentence length.
-5. #emoticon removed, # stop word removed, # token count, # lowercase , # special char
-removed.
-6. # address #phone number #account number
-2. Use automated metrics to evaluate the quality of cleaned text: ( 1 point)
-1. Readability Scores (e.g., Flesch-Kincaid): Ensure text remains interpretable
-2. Lexical Diversity: Ratio of unique words to total words. ( read and use)
-3. Measure the runtime of your script (use built-in timing function) (1 point)
+# Text Cleaning and Analysis Project
+
+This project focuses on cleaning, preprocessing, and analyzing text data. It covers various steps to process raw text and evaluate the quality of the cleaned data using automated metrics like readability scores and lexical diversity.
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Workflow](#workflow)
+  - [1. Data Loading](#1-data-loading)
+  - [2. Preprocessing](#2-preprocessing)
+  - [3. Automated Metrics](#3-automated-metrics)
+  - [4. Text Normalization](#4-text-normalization)
+- [Outputs and Metrics](#outputs-and-metrics)
+- [Runtime](#runtime)
+- [License](#license)
+
+---
+
+## Features
+1. **Data Loading**:
+   - Load and merge datasets.
+   - Analyze the initial number of documents and statistics.
+
+2. **Preprocessing**:
+   - Tokenize text into sentences and words.
+   - Remove URLs, special characters, spaces, numbers, account mentions, and phone numbers.
+   - Normalize text to lowercase.
+
+3. **Automated Metrics**:
+   - **Readability Scores**:
+     - Use Flesch-Kincaid readability grade to ensure the text is interpretable.
+   - **Lexical Diversity**:
+     - Measure the richness of vocabulary as the ratio of unique words to total words.
+
+4. **Text Normalization**:
+   - Remove stopwords.
+   - Apply lemmatization and stemming for text simplification.
+
+---
+
+## Technologies Used
+- Python 3.8+
+- Libraries: 
+  - `pandas`
+  - `nltk`
+  - `re`
+  - `textstat`
+  - `time`
+
+---
+
+
